@@ -18,4 +18,8 @@ public class Sample {
 		}
 		return answer;
 		}
+	
+	public static void rand_f(){
+		System.out.println("I dont do anything");
+	}
 }
