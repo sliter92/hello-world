@@ -152,6 +152,12 @@ public class Sample {
 		carrera.move(150);
 		carrera.move(250);*/
 		
+		Room parentsRoom = new Room("King",3,4,true);
+		Room kidsRoom = new Room("Double", 2, 2, false);
+		Room visits = new Room("Double", 1, 1, true);
+		
+		House myHouse = new House(parentsRoom, kidsRoom, visits);
+		myHouse.removeChair(parentsRoom, 1);
 		
 	}
 }
